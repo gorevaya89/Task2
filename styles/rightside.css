@@ -1,0 +1,137 @@
+
+.right-side-content {
+    float: right;
+    width: 840px;
+    margin-left: 50px;
+}
+
+.menu {
+    margin-bottom: 31px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 30px;
+    color: #3D3D3D;
+    vertical-align: top;
+}
+
+.active {
+    border-bottom: 2px solid #46A358;
+    color: #46A358;
+    padding-bottom: 7px;
+}
+
+.link:last-of-type {
+    margin-right: 0px;
+}
+
+.left-menu {
+    float: left;
+}
+
+.right-menu {
+    float: right;
+    vertical-align: top;
+}
+
+.menu-text {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.menu-text img {
+    vertical-align: middle;
+}
+
+.cards-im {
+    float: right;
+    margin-top: 30px;
+}
+
+
+.flowers {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.cards-im:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card {
+    float: left;
+    width: 258px;
+    margin-right: 33px;
+
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card:nth-last-of-type(n+4) {
+    margin-bottom: 70px;
+}
+
+.card-image {
+    width: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.card-image-wrapper {
+    padding-top: 30px;
+    padding-bottom: 19px;
+    background-color: #FBFBFB;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 6px;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.pagination {
+    text-align: right;
+    margin-top: 90px;
+}
+
+.pagination-link {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3D3D3D;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pagination-link:last-child {
+    margin-right: 0px;
+}
+
+.pagination-link-active {
+    background-color: #46A358;
+    color: #FBFBFB;
+}
