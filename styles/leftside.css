@@ -1,0 +1,65 @@
+.hero {
+    padding-bottom: 82px;
+    padding-top: 91px;
+}
+
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left-side-content {
+    width: 310px;
+    float: left;
+
+}
+
+.characteristics {
+    background-color: #FBFBFB;
+    padding: 14px 18px;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 15px;
+    color: #3D3D3D;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.categories-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.category:last-child {
+    margin-bottom: 0px;
+}
+
+.categories {
+    padding-left: 12px;
+    margin-top: 7px;
+
+}
+
+.category:hover {
+    color: #46A358;
+}
+
+.banner-image {
+    margin-top: 100px;
+}
+
+.banner-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
